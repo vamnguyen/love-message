@@ -31,6 +31,12 @@
 </head>
 
 <body>
+	<script>
+		// Display an alert when the page loads
+		window.onload = function () {
+			alert("Sử dụng điện thoại có thể bị lỗi giao diện. Vui lòng sử dụng máy tính hoặc laptop để trải nghiệm tốt nhất!");
+		};
+	</script>
 	<div id="main">
 		<div id="wrap">
 			<audio id="music" autoplay="autopaly" loop="loop">
@@ -83,7 +89,7 @@
 
 			<canvas id="canvas" width="1100" height="680"></canvas>
 		</div>
-		<div id="copyright">
+		<div id="copyright" style="padding-bottom: 10px; font-weight: 500;">
 			Re-created and localized by
 			<a href='https://vamnguyen.vercel.app/'>VAM Nguyen</a>
 		</div>
